@@ -12,7 +12,7 @@ function Footer() {
                 
                 <div className={styles.credits}>
                     <a 
-                        href="https://unitedtechcommunity.in/" 
+                        href="https://www.unitedtechcommunity.in/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className={styles.link}
@@ -23,7 +23,7 @@ function Footer() {
                     <span className={styles.separator}>×</span>
                     
                     <a 
-                        href="https://sambhavdwivedi.in/" 
+                        href="https://www.sambhavdwivedi.in/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className={styles.link}
