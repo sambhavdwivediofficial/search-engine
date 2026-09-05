@@ -1,4 +1,4 @@
-# Sophon Search Engine
+# Search Engine
 
 A high-performance, full-text search engine built with Python (FastAPI) and React. Features real-time indexing, BM25 ranking, autocomplete suggestions, and a modern dark-themed UI.
 
@@ -155,8 +155,8 @@ const API_URL = "http://127.0.0.1:8000"
 ### Docker (Optional)
 
 ```bash
-docker build -t sophon-search .
-docker run -p 8000:8000 -p 5173:5173 sophon-search
+docker build -t search-engine
+docker run -p 8000:8000 -p 5173:5173 search-engine
 ```
 
 ### Production Build

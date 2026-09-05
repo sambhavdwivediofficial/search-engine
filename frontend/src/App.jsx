@@ -83,7 +83,7 @@ function App() {
         <div className={styles.app}>
             {/* <header className={styles.header}>
                 <h1 className={styles.logo} onClick={handleLogoClick} style={{cursor: 'pointer'}}>
-                    Sophon Search
+                    Search Engine
                 </h1>
             </header> */}
             

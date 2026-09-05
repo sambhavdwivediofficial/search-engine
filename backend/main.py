@@ -221,7 +221,7 @@ async def root():
     Root endpoint - API info return karta hai.
     """
     return {
-        "message": "Sophon Search Engine mein aapka swagat hai!",
+        "message": "Search Engine!",
         "version": "1.0.0",
         "docs": "/docs",
         "health": "/health"
