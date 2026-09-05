@@ -187,7 +187,7 @@ class IndexRequest(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "path": "./data/documents",
+                "path": "./data",
                 "recursive": True
             }
         }

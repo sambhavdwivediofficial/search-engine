@@ -137,7 +137,7 @@ POST /api/search
 
 ```python
 INDEX_DIR = "storage"
-DOCUMENTS_DIR = "../data/documents"
+DOCUMENTS_DIR = "../data"
 MAX_RESULTS = 50
 SUGGESTION_LIMIT = 5
 ```
