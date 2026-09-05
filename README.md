@@ -7,16 +7,16 @@ A high-performance, full-text search engine built with Python (FastAPI) and Reac
 ## Architecture
 
 ```
-┌─────────────┐      HTTP/REST       ┌─────────────┐
-│   React     │ ◄──────────────────► │   FastAPI   │
-│  Frontend   │   Port: 8000         │   Backend   │
-│  Port: 5173 │                      │             │
-└─────────────┘                      └──────┬──────┘
-                                            │
-                                   ┌───────┴───────┐
-                                   │  Whoosh Index │
-                                   │  BM25 Ranking │
-                                   └───────────────┘
+┌─────────────┐      HTTP/REST        ┌─────────────┐
+│   React     │ ◄──────────────────►  │   FastAPI   │
+│  Frontend   │      Port: 8000       │   Backend   │
+│  Port: 5173 │                       │             │
+└─────────────┘                       └──────┬──────┘
+                                             │
+                                     ┌───────┴───────┐
+                                     │  Whoosh Index │
+                                     │  BM25 Ranking │
+                                     └───────────────┘
 ```
 
 ---
@@ -131,34 +131,6 @@ POST /api/search
 
 ---
 
-## Project Structure
-
-```plaintext
-search-engine/
-├── backend/
-│   ├── main.py
-│   ├── searcher.py
-│   ├── indexer.py
-│   ├── crawler.py
-│   ├── models.py
-│   └── storage/
-│       └── index.json
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── components/
-│   │   │   ├── Search/
-│   │   │   ├── Results/
-│   │   │   ├── ResultCard/
-│   │   │   └── Footer/
-│   │   └── api/
-│   │       └── api.js
-│   └── package.json
-└── data/documents/
-```
-
----
-
 ## Configuration
 
 ### Backend (`backend/config.py`)
@@ -201,7 +173,7 @@ npm run build
 ## Performance
 
 - Indexing: ~1000 docs/sec  
-- Search latency: <20ms (cached)  
+- Search latency: <10ms (cached)  
 - Supports 10k+ documents  
 - BM25 ranking with field boosts  
 
@@ -215,7 +187,4 @@ MIT License. See LICENSE file.
 
 ## Authors
 
-Sambhav Dwivedi - [sambhavdwivedi.in](https://sambhavdwivedi.in)  
-United Tech Community - [unitedtechcommunity.in](https://unitedtechcommunity.in)
-
-Built with ❤️ using Python and React.
+Sambhav Dwivedi - [www.sambhavdwivedi.in](https://www.sambhavdwivedi.in)
