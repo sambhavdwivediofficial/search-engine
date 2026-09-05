@@ -2,7 +2,7 @@
     position: relative;
     padding: 40px 4px 3px;
     background: linear-gradient(180deg, #000000 0%, #000000 100%);
-    border-top: 1px solid #1a1a1a;
+    /* border-top: 1px solid #1a1a1a; */
     overflow: hidden;
 }
 

@@ -81,11 +81,11 @@ function App() {
 
     return (
         <div className={styles.app}>
-            <header className={styles.header}>
+            {/* <header className={styles.header}>
                 <h1 className={styles.logo} onClick={handleLogoClick} style={{cursor: 'pointer'}}>
                     Sophon Search
                 </h1>
-            </header>
+            </header> */}
             
             <main className={styles.main}>
                 <Search 

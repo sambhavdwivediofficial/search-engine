@@ -33,7 +33,7 @@ function Footer() {
                 </div>
                 
                 <div className={styles.copyright}>
-                    © {new Date().getFullYear()} Sophon Search
+                    © {new Date().getFullYear()} Search. All rights reserved
                 </div>
             </div>
             

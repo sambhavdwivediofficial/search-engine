@@ -1,14 +1,14 @@
 .resultCard {
     background-color: #111111;
-    border: 2px solid #2c2c2e;
+    border: 1px solid #2c2c2e;
     border-radius: 12px;
     padding: 20px;
     transition: border-color 0.2s;
 }
 
-.resultCard:hover {
+/* .resultCard:hover {
     border-color: #3a3a3c;
-}
+} */
 
 .resultHeader {
     display: flex;
@@ -38,7 +38,7 @@
 .score {
     font-size: 12px;
     color: #a0a0a0;
-    background-color: #000000;
+    /* background-color: #000000; */
     padding: 4px 8px;
     border-radius: 4px;
     font-family: monospace;
@@ -60,7 +60,8 @@
 }
 
 .snippet mark {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgb(0, 0, 0);
+    border: 0.1px solid rgba(255, 255, 255, 0.215);
     color: #ffffff;
     padding: 2px 4px;
     border-radius: 4px;
